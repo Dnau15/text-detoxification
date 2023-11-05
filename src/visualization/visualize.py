@@ -56,6 +56,6 @@ plt.savefig(f"{args.output_path}/distribution.png")
 i = 0
 for column, index in zip(columns, indexes): 
     i += 1
+    plt.figure(figsize=(10, 6)) 
     plot = radar_plot(data=column, model_names=index)
-    plot.show()
-    plot.savefig(f"{args.output_path}/metrics{i}.png")
+    plot.savefig(f"{args.output_path}/metrics{i}.png", dpi=300,bbox_inches='tight')
