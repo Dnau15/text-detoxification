@@ -26,11 +26,11 @@ def preprocess_dataset(path="../data/raw/filtered.tsv"):
     index_drop = data[(data['ref_tox'] < 0.9) | (data['trn_tox'] > 0.1) ].index
     data.drop(index_drop, inplace=True)
     data.drop(columns=["swap"], axis=1, inplace=True)
-    data.to_csv("../data/raw/filtered_converted.csv")
+    data.to_csv("../data/interim/filtered_converted.csv")
     return data
 
 
-def get_dataset(path="../data/raw/filtered_converted.csv", n_rows=20000):
+def get_dataset(path="../data/interim/filtered_converted.csv", n_rows=20000):
     """
     This function returns DataDict dataset from datasets lib
 
