@@ -30,7 +30,7 @@ def preprocess_dataset(path="../data/raw/filtered.tsv"):
     return data
 
 
-def get_dataset(path="../data/raw/filtered_converted.csv", n_rows=1000):
+def get_dataset(path="../data/raw/filtered_converted.csv", n_rows=20000):
     """
     This function returns DataDict dataset from datasets lib
 
