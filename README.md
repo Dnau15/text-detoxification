@@ -13,4 +13,6 @@ python predict_model.py model_checkpoint --n_rows
 ## To use baseline
 python delete_toxic_words.py --threshold --size
 ## To visualize
+```
 python visualization/visualization.py --output_path
+```
