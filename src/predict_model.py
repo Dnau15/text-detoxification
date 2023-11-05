@@ -1,5 +1,5 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer, DataCollatorForSeq2Seq
-from data.preprocess_dataset import preprocess_dataset, preprocess_function_extra, get_dataset
+from src.data.make_dataset import preprocess_dataset, preprocess_function_extra, get_dataset
 from utils import compute_metric_with_extra, set_seeds, save_temp
 import argparse
 
@@ -47,4 +47,4 @@ my_predictions = tokenizer.batch_decode(
                 )
 print(metrics)
 print(my_predictions)
-save_temp("/home/dmitrii/vscode_projects/PMLDL/Assignment1/data/output_files/t5small_output.txt", my_predictions)
+save_temp("../data/output_files/t5small_output.txt", my_predictions)

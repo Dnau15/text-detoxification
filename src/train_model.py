@@ -1,6 +1,6 @@
 import argparse
 import torch
-from data.preprocess_dataset import preprocess_dataset, preprocess_function_extra, get_dataset
+from data.make_dataset import preprocess_dataset, preprocess_function_extra, get_dataset
 from models.delete_toxic import delete_toxic
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, Seq2SeqTrainingArguments, Seq2SeqTrainer,DataCollatorForSeq2Seq
 from utils import compute_metric_with_extra, set_seeds
