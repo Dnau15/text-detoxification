@@ -1,0 +1,7 @@
+[1] https://huggingface.co/spaces/evaluate-metric/bleu
+[2] https://huggingface.co/spaces/evaluate-metric/rouge
+[3] https://machinetranslate.org/ter
+Images links:
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sbert.net%2Fexamples%2Funsupervised_learning%2FMLM%2FREADME.html&psig=AOvVaw1r4XTq2q0pkoovaq0C0rgs&ust=1699296730468000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPCu_eHDrYIDFQAAAAAdAAAAABAE
+https://www.google.com/search?q=T5+model+architecture&tbm=isch&ved=2ahUKEwj80bTyw62CAxUSLhAIHaa5BAcQ2-cCegQIABAA&oq=T5+model+architecture&gs_lcp=CgNpbWcQAzIECCMQJzIHCAAQExCABFCMBliMBmDWB2gAcAB4AIABZogBvAGSAQMxLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=fuRHZfyaJpLcwPAPpvOSOA#imgrc=TI8zPVvOE0E2PM
+https://www.researchgate.net/publication/364721323/figure/fig1/AS:11431281092140099@1666727569130/The-BART-model-architecture.jpg
